@@ -1,0 +1,8 @@
+build
+mods
+resourcepacks
+
+# Ignore shaderpacks folder except for the Complementary Reimagined config
+shaderpacks
+!shaderpacks
+!shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt
