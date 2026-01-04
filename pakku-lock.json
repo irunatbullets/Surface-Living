@@ -1031,6 +1031,43 @@
             ]
         },
         {
+            "pakku_id": "NzSgGPLiNkh5DvYM",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "explorations"
+            },
+            "name": {
+                "modrinth": "Explorations"
+            },
+            "id": {
+                "modrinth": "pcGnjJ39"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "explorations-neoforge-1.21.1-1.6.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pcGnjJ39/versions/LXWlvQLv/explorations-neoforge-1.21.1-1.6.2.jar",
+                    "id": "LXWlvQLv",
+                    "parent_id": "pcGnjJ39",
+                    "hashes": {
+                        "sha512": "0514f21178b12c8bd3fe23aca7f44100e9745197915285077638a08ed8b78b7cba2709ecafe6f8f8a79a51637316f343379df387b6a20654b194cc687e531108",
+                        "sha1": "f5b07b118b3b33f0be143e1c6e6bd07b93c8c731"
+                    },
+                    "required_dependencies": [],
+                    "size": 219665,
+                    "date_published": "2025-05-01T21:43:43.117456Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Oei6qUZclQMzHIc4",
             "type": "MOD",
             "side": "BOTH",
