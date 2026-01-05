@@ -58,7 +58,8 @@ jobs:
         run: |
           git fetch --tags
 
-          VERSION=$(grep -m1 '^## ' CHANGELOG.md | sed -E 's/^## \[([^\]]+)\]/\1/')
+          VERSION=$(grep -m1 '^## ' CHANGELOG.md | sed -E 's/^## \[?([0-9]+\.[0-9]+\.[0-9]+)\]?/\1/')
+
 
           if [ -z "$VERSION" ]; then
             echo "Could not determine version from CHANGELOG.md"
