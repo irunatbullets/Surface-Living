@@ -5,7 +5,7 @@
         "config/bridgingmod.json",
         "config/defaultoptions",
         "config/inventoryessentials-common.toml",
-        "config/inventoryprofilesnext",
+        "config/inventoryprofilesnext/inventoryprofiles.json",
         "config/lighty",
         "config/pfm.json",
         "config/untitledduckmod-server.toml",
