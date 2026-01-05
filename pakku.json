@@ -2,7 +2,16 @@
     "name": "Surface Living",
     "version": "1.0.0",
     "overrides": [
-        "config",
+	bridgingmod.json
+defaultoptions
+inventoryessentials-common.toml
+inventoryprofilesnext
+lighty
+pfm.json
+untitledduckmod-server.toml
+xaero
+xaerohud.txt
+xaeropatreon.txt
 	"shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt"
     ]
 }
