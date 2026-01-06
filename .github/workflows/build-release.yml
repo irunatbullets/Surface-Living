@@ -265,14 +265,25 @@ jobs:
           username: "irunatbullets"
           avatar_url: "https://cdn.modrinth.com/data/PoHFfv3G/53d3a9085947f25804334a2c5de8f656f3bb2f20.png"
           content_links_no_embed: .+
-          content: |
-            **Release**: `${{ needs.info.outputs.project_full_name }}`
-            **Release Type**: `${{ needs.info.outputs.release_type }}`
-            **Game Version**: `${{ needs.info.outputs.mc_version }}`
-            [Modrinth](https://modrinth.com/modpack/${{ vars.MODRINTH_ID }}) • [GitHub](${{ needs.release-github.outputs.url }}) • [Issues](https://github.com/${{ github.repository }}/issues)
-
-            ```markdown
-            ${{ needs.info.outputs.changelog }}
-            ${{ needs.info.outputs.diff }}
-            ```
+          embeds: |
+            [
+              {
+                "title": "Surface Living — New Release [${{ needs.info.outputs.project_version }}]",
+                "url": "https://modrinth.com/modpack/surface-living/version/${{ needs.info.outputs.project_version }}",
+                "color": 5763719,
+                "description": "A fresh update to **Surface Living** is out.",
+                "fields": [
+                  {
+                    "name": "Links",
+                    "value": "→ [View this release on Modrinth](https://modrinth.com/modpack/surface-living/version/${{ needs.info.outputs.project_version }})\n
+                    → [Issue tracker & feedback](https://github.com/irunatbullets/surface-living/issues)\n
+                    → [Full changelog](https://github.com/irunatbullets/surface-living/blob/main/CHANGELOG.md)\n
+                    → [Optional support](https://ko-fi.com/irunatbullets)"
+                  }
+                ],
+                "thumbnail": {
+                  "url": "https://cdn.modrinth.com/data/mPwYBsJ3/images/25bd95745cd6cc5d7d25c34c642792ffbdd48ead.png"
+                }
+              }
+            ]
 
