@@ -7,6 +7,8 @@ permissions:
 on:
   push:
     branches: [dev, main]
+    paths-ignore:
+      - '.github/workflows/**'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -89,9 +91,15 @@ jobs:
           fi
 
           TAG_EXISTS=$(git tag --list "$VERSION")
-          MAKE_RELEASE=false
+          VERSION_CHANGED=false
 
-          if [ "${{ github.ref_name }}" = "main" ] && [ -z "$TAG_EXISTS" ]; then
+          LAST_TAG=$(git describe --tags --abbrev=0 origin/main 2>/dev/null || true)
+          if [ -n "$LAST_TAG" ] && [ "$LAST_TAG" != "$VERSION" ]; then
+            VERSION_CHANGED=true
+          fi
+
+          MAKE_RELEASE=false
+          if [ "${{ github.ref_name }}" = "main" ] && [ "$VERSION_CHANGED" = "true" ]; then
             MAKE_RELEASE=true
           fi
 
