@@ -26,6 +26,7 @@ jobs:
     needs: info
     if: needs.info.outputs.pakku-lock_changed == 'true' || github.ref_name == 'main'
     steps:
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/build-project
         env:
           PROJECT_VERSION: ${{ needs.info.outputs.project_version }}
@@ -40,6 +41,7 @@ jobs:
     needs: [info, build-project]
     if: needs.info.outputs.make_release == 'true'
     steps:
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/release-github
         env:
           PROJECT_VERSION: ${{ needs.info.outputs.project_version }}
@@ -52,6 +54,7 @@ jobs:
     needs: [info, build-project, release-github]
     if: needs.info.outputs.make_release == 'true'
     steps:
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/release-modrinth
         env:
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
@@ -69,6 +72,7 @@ jobs:
     needs: [info, release-github, release-modrinth]
     if: needs.info.outputs.webhook_present == 'true' && needs.info.outputs.make_release == 'true'
     steps:
+      - uses: actions/checkout@v5
       - uses: ./.github/actions/message-discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
