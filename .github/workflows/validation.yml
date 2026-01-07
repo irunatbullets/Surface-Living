@@ -54,3 +54,32 @@ jobs:
           fi
 
           echo "Changelog version ($NEW_VERSION) ready for release."
+
+  check-overrides:
+    runs-on: ubuntu-latest
+    needs: check-changelog
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Validate pakku.json overrides
+        run: |
+          # Read overrides array from pakku.json
+          OVERRIDES=$(jq -r '.overrides[]' pakku.json)
+
+          MISSING=0
+          for path in $OVERRIDES; do
+            if [ ! -e "$path" ]; then
+              echo "ERROR: Override file '$path' does not exist."
+              MISSING=$((MISSING + 1))
+            fi
+          done
+
+          if [ "$MISSING" -ne 0 ]; then
+            echo "One or more override files are missing. Please update pakku.json."
+            exit 1
+          fi
+
+          echo "All override files exist."
+          
