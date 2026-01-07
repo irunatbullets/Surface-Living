@@ -1,4 +1,5 @@
-name: Pull Request Validation
+name: Validation
+run-name: "Validation #${{ github.run_number }}"
 
 on:
   pull_request:
@@ -18,9 +19,9 @@ jobs:
         with:
           filters: |
             trigger-release:
-              # - 'pakku.json'
-              # - 'pakku-lock.json'
-              # - '.pakku/**'
+              - 'pakku.json'
+              - 'pakku-lock.json'
+              - '.pakku/**'
               - 'configs/**'
               - 'shaderpacks/**'
 
