@@ -5,17 +5,24 @@ shaderpacks/*
 !shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt
 
 # Ignore instance artifacts
+.cache/
+coremods/
 data/
+defaultconfigs/
 downloads/
 dynamic-data-pack-cache/
 dynamic-resource-pack-cache/
 icon.png
 logs/
 mods/
+moonlight-global-datapacks/
 options.txt
 pfm/
 resourcepacks/
 saves/
+server-resource-packs/
+screenshots/
+texturepacks/
 usercache.json
 usernamecache.json
 xaero/
