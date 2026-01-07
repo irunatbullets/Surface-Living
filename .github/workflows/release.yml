@@ -1,5 +1,5 @@
-name: Build Project
-run-name: "Project Build #${{ github.run_number }}"
+name: Release
+run-name: "Release #${{ github.run_number }}"
 
 permissions:
   contents: write
