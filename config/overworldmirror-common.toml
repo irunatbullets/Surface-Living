@@ -16,8 +16,8 @@
 #Seed settings
 [seed]
 	#If you have set this false then the seedValue value will be treated as new seed, else the value will be added to the main world seed.
-	seedAddition = false
+	seedAddition = true
 	#The seed value. See seedAddition for more information.
 	# Default: 100000
 	# Range: -9223372036854775808 ~ 9223372036854775807
-	seedValue = 100000
+	seedValue = 42719308460
