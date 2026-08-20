@@ -4,8 +4,7 @@ build
 shaderpacks/*
 !shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt
 
-resourcepacks/*
-!resourcepacks/whimscape-mods.zip
+resourcepacks/
 
 # Ignore instance artifacts
 .cache/
