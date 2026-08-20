@@ -3586,21 +3586,6 @@
             ]
         },
         {
-            "pakku_id": "2sq4TNIyrB9mqcgp",
-            "type": "RESOURCE_PACK",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "whimscape-mods"
-            },
-            "name": {
-                "modrinth": "Whimscape X Mods"
-            },
-            "id": {
-                "modrinth": "RbXdW6tQ"
-            },
-            "files": []
-        },
-        {
             "pakku_id": "sQHzPzheX6ejECs4",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
@@ -4280,4 +4265,3 @@
     ],
     "lockfile_version": 1
 }
-

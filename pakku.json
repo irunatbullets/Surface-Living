@@ -12,7 +12,8 @@
         "config/xaero",
         "config/xaerohud.txt",
         "config/xaeropatreon.txt",
-        "shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt"
+        "shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt",
+        "resourcepacks/whimscape-mods.zip"
     ],
     "projects": {
         "u-team-core": {
@@ -23,3 +24,4 @@
         }
     }
 }
+
