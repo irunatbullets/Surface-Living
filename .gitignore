@@ -4,6 +4,8 @@ build
 shaderpacks/*
 !shaderpacks/ComplementaryReimagined_r5.6.1.zip.txt
 
+resourcepacks/
+
 # Ignore instance artifacts
 .cache/
 command_history.txt
@@ -19,7 +21,6 @@ logs/
 mods/
 moonlight-global-datapacks/
 options.txt
-resourcepacks/
 saves/
 servers.dat
 servers.dat_old
@@ -48,3 +49,4 @@ config/*
 !config/xaero
 !config/xaerohud.txt
 !config/xaeropatreon.txt
+

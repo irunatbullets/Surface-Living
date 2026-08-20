@@ -2,6 +2,10 @@
 
 This file contains short, high-level summaries of each release. For full details, including mod diffs, see the [GitHub Releases](https://github.com/irunatbullets/surface-living/releases) page.
 
+## [1.2.3]
+
+I've fixed an issue where Whimscape x Mods was missing, and it was broken for 3 months...
+
 ## [1.2.2]
 
 More boring updates but with less geese and ducks.
