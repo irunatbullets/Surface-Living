@@ -2,6 +2,10 @@
 
 This file contains short, high-level summaries of each release. For full details, including mod diffs, see the [GitHub Releases](https://github.com/irunatbullets/surface-living/releases) page.
 
+## [1.3.1]
+
+Added a bunch of crazy hats to relive those good old 1.7.10 days.
+
 ## [1.3.0]
 
 Updated to a newer neoforge loader and updated all mods and resource packs. One of these days I'll get around to adding some new stuff.
