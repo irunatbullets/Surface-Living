@@ -2,6 +2,10 @@
 
 This file contains short, high-level summaries of each release. For full details, including mod diffs, see the [GitHub Releases](https://github.com/irunatbullets/surface-living/releases) page.
 
+## [1.3.2]
+
+I've added a mod for setting a static port number when creating a lan game, because the random port number is super annoying when we're not playing on a server. Also, mod updates.
+
 ## [1.3.1]
 
 Added a bunch of crazy hats to relive those good old 1.7.10 days.
