@@ -21,6 +21,7 @@ logs/
 mods/
 moonlight-global-datapacks/
 options.txt
+patchouli_data.json
 saves/
 servers.dat
 servers.dat_old
@@ -40,6 +41,7 @@ config/*
 
 # Except these, which Pakku needs
 !config/bridgingmod.json
+!config/curios-client.toml
 !config/defaultoptions
 !config/inventoryessentials-common.toml
 !config/inventoryprofilesnext/inventoryprofiles.json
