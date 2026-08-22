@@ -3170,7 +3170,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "sophisticatedcore-1.21.1-1.4.89.2291.jar",
+                    "file_name": "sophisticatedcore-1.21.1-1.4.90.2299.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3178,16 +3178,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/Wxcy92XH/sophisticatedcore-1.21.1-1.4.89.2291.jar",
-                    "id": "Wxcy92XH",
+                    "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/zvRSOlro/sophisticatedcore-1.21.1-1.4.90.2299.jar",
+                    "id": "zvRSOlro",
                     "parent_id": "nmoqTijg",
                     "hashes": {
-                        "sha512": "ac6ae564f3b363789db0bd66d8bb58712473ff81c3ee9142af75ef90898036e83b3de885713a7bcacfe4dbe4e54c49d29d040b8d7df53c8a212b5a91f3cff859",
-                        "sha1": "8b314611f4124a2a9ac63b864cd4fdd3f635a916"
+                        "sha512": "aa335c59b20d93aedb88e59ec85c04121fa682fab1ea4a080d7b88d7b545db83ef7c019f2334f0aee5605da2a6997c442e58a295cf9656b57bba986bf2427104",
+                        "sha1": "a7ab80bc6a5f069388325f552c8348a735dd6afb"
                     },
                     "required_dependencies": [],
-                    "size": 1686851,
-                    "date_published": "2026-08-19T22:58:26.150339Z"
+                    "size": 1687195,
+                    "date_published": "2026-08-22T06:39:02.610406Z"
                 }
             ]
         },
