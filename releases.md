@@ -2,6 +2,10 @@
 
 This file contains short, high-level summaries of each release. For full details, including mod diffs, see the [GitHub Releases](https://github.com/irunatbullets/surface-living/releases) page.
 
+## [1.3.3]
+
+There have been a lot of updates recently because we're back playing minecraft again. This update adds hammers, cuts down on ways to add remove armor/trinkets (there were three), and I'm sneaking Industrial Foregoing into the pack because I haven't played with it before.
+
 ## [1.3.2]
 
 I've added a mod for setting a static port number when creating a lan game, because the random port number is super annoying when we're not playing on a server. Also, mod updates.
